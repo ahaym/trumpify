@@ -13,7 +13,7 @@ intro: "\n \n" name ispeech "My Father, Donald Trump." wow "Trump: Our country i
 name: family ": "
 ;
 
-ispeech: ilines | ilines ispeech | ilines ispeech
+ispeech: ilines | ilines ispeech 
 ;
 
 ilines: "Today, I introduce a " adjective " man. " | "My father is " superhero ". "
@@ -72,6 +72,7 @@ linelist:
 "We have losers. We have losers. We have people that don't have it. We have people that are morally corrupt. We have people that are selling this country down the drain. "
 | "Mark my words. "
 | "So nice, thank you very much. That's really nice. Thank you. It's great to be at " building ". It's great to be in a wonderful city, New York. And it's an honor to have everybody here. This is beyond anybody's expectations. There's been no crowd like this."
+| "Our country needs a " adjective " leader."
 ;
 thx: "\n \nTrump: Thank you.\n \n"
 ;
