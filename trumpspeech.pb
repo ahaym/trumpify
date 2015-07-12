@@ -19,7 +19,7 @@ ispeech: ilines | ilines ispeech
 ilines: "Today, I introduce a " adjective " man. " | "My father is " superhero ". "
 ;
 
-wow: "<br> <br>(APPLAUSE)<br> <br>"  | "<br> <br>Audience Member : We want Trump!<br> <br>" thx | "<br> <br>(APPLAUSE)<br> <br>" | "<br> <br> Audience Member: Yes we can! Yes we can! <br> <br>"
+wow: "<br> <br>(APPLAUSE)<br> <br>"  | "<br> <br>Audience Member : We want Trump!<br> <br>" | "<br> <br>(APPLAUSE)<br> <br>" thx | "<br> <br> Audience Member: Yes we can! Yes we can! <br> <br>" | "<br><br>" | "<br><br>Audience Member: Trump for President! <br><br>"
 ;
 
 speech: p | p | wow | p | p | line | line | line
@@ -74,7 +74,7 @@ linelist:
 | "So nice, thank you very much. That's really nice. Thank you. It's great to be at " building ". It's great to be in a wonderful city, New York. And it's an honor to have everybody here. This is beyond anybody's expectations. There's been no crowd like this."
 | "Our country needs a " adjective " leader."
 ;
-thx: "<br> <br>Trump: Thank you.<br> <br>"
+thx: "<br> <br>Trump: Thank you.<br> <br>" | "<br><br>Trump: I know.<br><br>"
 ;
 //word bank================================================
 
