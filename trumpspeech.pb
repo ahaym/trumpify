@@ -1,25 +1,25 @@
 //trumpify
 
-main: "\n" line campaign
+main: "<br>" line campaign
 ;
 
 campaign: speech thx |
 speech campaign | speech campaign | speech campaign
 ;
 
-intro: "\n \n" name ispeech "My Father, Donald Trump." wow "Trump: Our country is in serious trouble. \n \n"
+intro: "<br> <br>" name ispeech "My Father, Donald Trump." wow "Trump: Our country is in serious trouble. <br> <br>"
 ;
 
 name: family ": "
 ;
 
-ispeech: ilines | ilines ispeech 
+ispeech: ilines | ilines ispeech
 ;
 
 ilines: "Today, I introduce a " adjective " man. " | "My father is " superhero ". "
 ;
 
-wow: "\n \n(APPLAUSE)\n \n"  | "\n \nAudience Member : We want Trump!\n \n" thx | "\n \n(APPLAUSE)\n \n" | "\n \n Audience Member: Yes we can! Yes we can! \n \n"
+wow: "<br> <br>(APPLAUSE)<br> <br>"  | "<br> <br>Audience Member : We want Trump!<br> <br>" thx | "<br> <br>(APPLAUSE)<br> <br>" | "<br> <br> Audience Member: Yes we can! Yes we can! <br> <br>"
 ;
 
 speech: p | p | wow | p | p | line | line | line
@@ -47,7 +47,7 @@ countryline(c): c "'s leaders are whipping our leaders. "
 //end countryrant
 
 //rich module
-rich: "\n Trump: I'm really rich. " richstory rich | "\n Trump: I'm really rich. " richstory wow
+rich: "<br> Trump: I'm really rich. " richstory rich | "<br> Trump: I'm really rich. " richstory wow
 ;
 richstory: "I made it the old-fashioned way." | "And I have assets -- big accounting firm, one of the most highly respected -- 9 billion 240 million dollars. " wow
 | "I'm not doing that to brag, because you know what? I don't have to brag. "
@@ -56,7 +56,7 @@ richstory: "I made it the old-fashioned way." | "And I have assets -- big accoun
 //end rich
 
 //isis module
-isisrant: "\n Trump: " isis "\n \n";
+isisrant: "<br> Trump: " isis "<br> <br>";
 isis: isisline wow isis | isisline | isisline
 ;
 
@@ -67,14 +67,14 @@ isisline:
 ;
 
 //misc
-line: "\n Trump: " linelist "\n \n";
+line: "<br> Trump: " linelist "<br> <br>";
 linelist:
 "We have losers. We have losers. We have people that don't have it. We have people that are morally corrupt. We have people that are selling this country down the drain. "
 | "Mark my words. "
 | "So nice, thank you very much. That's really nice. Thank you. It's great to be at " building ". It's great to be in a wonderful city, New York. And it's an honor to have everybody here. This is beyond anybody's expectations. There's been no crowd like this."
 | "Our country needs a " adjective " leader."
 ;
-thx: "\n \nTrump: Thank you.\n \n"
+thx: "<br> <br>Trump: Thank you.<br> <br>"
 ;
 //word bank================================================
 
