@@ -1,6 +1,7 @@
 import os
 import subprocess
 import binascii
+import time
 c = 0
 files = int(input('How many files to populate?: '))
 jsinsert = '<!-- $INSERTSPOTJS -->\n'
@@ -31,6 +32,7 @@ for name in names:
 	ftext = f.read()
 	f.close()
 	cmd = subprocess.check_output(['sh','dada-execute','trumpspeech.pb'], universal_newlines=True).replace('\n', '')
+	time.sleep(1)
 	newtext = ftext.replace(insertspot, startinsert + cmd + endinsert)
 	f = open('site/trump/' + name, 'w')
 	f.write(newtext)
