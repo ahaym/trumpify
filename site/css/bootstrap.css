@@ -3056,25 +3056,25 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 .btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc;
+  color: #000000;
+  background-color: #7777E1;
+  border-color: #000000;
 }
 .btn-default:focus,
 .btn-default.focus {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #8c8c8c;
+  color: #000000;
+  background-color: #9090FF;
+  border-color: #000000;
 }
 .btn-default:hover {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #adadad;
+  color: #000000;
+  background-color: #9090FF;
+  border-color: #000000;
 }
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #333;
+  color: #000000;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
