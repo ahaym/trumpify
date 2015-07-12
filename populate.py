@@ -13,7 +13,7 @@ pagestr = ''
 assert type(files) is int
 while c < files:
 	names.append(binascii.hexlify(os.urandom(2)).decode('ascii') + '.html')
-	url = '/trump/' + names[c]
+	url = '/trumpify/trump/' + names[c]
 	pagelist.append('randomlinks[' + str(c) + ']=\"' + url + '\" \n')
 	i = open('site/template.html', 'r')
 	itext = i.read()
