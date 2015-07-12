@@ -8,19 +8,15 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
 
-    <title>Trumpify</title>
+    <title>UP LIKE TRUMP</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../cover.css" rel="stylesheet">
+    <link href="css/cover.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -31,51 +27,46 @@
 
   <body>
 
-    <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Trumpify</h3>
-              <nav>
-              </nav>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Project name</a>
             </div>
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Generate Speech</a></li>
+                <li><a href="/about.html">About</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
           </div>
+        </nav>
+        <div class="article">
+                <h1>Donald Trump Speech Generator</h1>
+                <!-- $INSERTSPOT -->
+        <script>
+        <!--
+        /*
+        Random link button By JavaScript Kit (http://javascriptkit.com)
+        */
+        var randomlinks=new Array()
+        <!-- $INSERTSPOTJS -->
 
-          <div class="inner cover">
-            <h1 class="cover-heading">UP LIKE DONALD TRUMP</h1>
-            <!-- $INSERTSPOT -->
-
-<script>
-<!--
-/*
-Random link button By JavaScript Kit (http://javascriptkit.com)
-*/
-var randomlinks=new Array()
-<!-- $INSERTSPOTJS -->
-
-function randomlink(){
-window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
-}
-//-->
-</script>
-  <a onclick='randomlink();' class="btn btn-lg btn-default">Generate Speech!</a>
-          </div>
-
-          <div class="mastfoot">
-            <div class="inner">
-              <p>Made for $3 by Mark Hay</p>
-            </div>
-          </div>
+        function randomlink(){
+        window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+        }
+        //-->
+        </script>
+          <a onclick='randomlink();' class="btn btn-lg btn-default">Generate Speech!</a>
 
         </div>
 
-      </div>
 
-    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
