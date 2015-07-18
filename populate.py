@@ -20,14 +20,14 @@ while c < files:
 	pagelist.append('randomlinks[' + str(c) + ']=\"' + url + '\" \n')
 	i = open('site/template.html', 'r')
 	itext = i.read()
-	i.close()
-	for page in pagelist:
-		pagestr += page
-	i = open('site/index.html', 'w')
-	itext = itext.replace(jsinsert, pagestr)
-	i.write(itext)
-	i.close()
+	i.close()	
 	c += 1
+for page in pagelist:
+	pagestr += page
+i = open('site/index.html', 'w')
+itext = itext.replace(jsinsert, pagestr)
+i.write(itext)
+i.close()
 for name in names:
 	seed = random.randint(0, 1)
 	print(name + '\n')
