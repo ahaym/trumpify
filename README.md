@@ -1,8 +1,10 @@
 # trumpify
 
-Donald Trump Presidential Speech Generator! Made using recursive grammars, through the Dada Engine.
+Donald Trump Presidential Speech Generator! Made using recursive grammars, through the Dada Engine, as well as Markov chains.
 
 http://dev.null.org/dadaengine/manual-1.0/dada.htmlhttp://dev.null.org/dadaengine/manual-1.0/dada.html
+
+Currently, the system gives a 50% chance of giving a Markov text, and a 50% chance to give a Dada text.
 
 UPDATE July 12, 2015: Version 1.0! We're finally in a working state! Check it out at http://ahaym.github.io/trumpify/ !
 
